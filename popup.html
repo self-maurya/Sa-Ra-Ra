@@ -1,0 +1,30 @@
+<!doctype html>
+<head>
+    <script type="text/javascript" src="popup.js"></script>
+		<style type="text/css">
+	      #mainPopup {
+					padding: 10px;
+					height: 200px;
+					width: 400px;
+					font-family: Helvetica, Ubuntu, Arial, sans-serif;
+				}
+				h1 {
+						font-size: 2em;
+				}
+		</style>
+</head>
+
+<body>
+    <div id="mainPopup">
+        <h1>Sa Ra Ra</h1>
+        <p>Click on this button below to send lots of sarahah to this user!!!</p>
+        <p><b>Default Message</b>: <i>This is to tell you, how shitty your life has become lately!</i></p>
+        <p><b>Default Count</b>: <i>20</i></p>
+
+        <label>Message</label>
+        <textarea id="message" rows="3" cols="50"></textarea>
+        <label>Frequency</label>
+        <input type="text" id="frequency" />
+        <input type="button" id="senderButton" value="Send" />
+    </div>
+</body>

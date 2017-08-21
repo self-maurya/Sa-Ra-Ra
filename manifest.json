@@ -1,0 +1,39 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+  "name": "Sa Ra Ra",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "Repetitive Anonymous feedback in seconds by telling them how SHITTY your freind's life is.",
+  "homepage_url": "http://github.com/pramodmauryaiiita",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "background": {
+    "page": "src/bg/background.html",
+    "persistent": true
+  },
+  "page_action": {
+    "default_icon": "icons/icon19.png",
+    "default_title": "page action demo",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "cookies",
+    "https://*.sarahah.com/*",
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.sarahah.com/*"
+      ],
+      "js": [
+        "src/inject/inject.js",
+        "src/jquery/jquery.min.js"
+      ]
+    }
+  ]
+}
