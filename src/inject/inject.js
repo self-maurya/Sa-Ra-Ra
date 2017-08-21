@@ -11,8 +11,7 @@ function pooper(userName, userId, token, message) {
 	  "data": {
 	    "__RequestVerificationToken": token,
 	    "userid": userId,
-	    "text": message,
-			"captchaResponse": "03AJz9lvTferinPvvJVQt8JFUMsAyKP-gnTY3qmMnWKKnQSYnMXTpKAhGGeFeHsCv5xwoMSfLgBuryV858IpInkQ9QSqcj3Da_MTwFNC5kzw_IDPu-SOf6UdOGDxk8VV-A6Pd1kJwpUxK6M96SqlhCOI2ZDJyls-u7unXDLhZC30toqT-ui6AOPLoRSC7nA7cYMh8Hr4Ht76rssqOZIIMWV4Dw88X6AREE2nuvhFsKAQQ9MW8A-Td0hA6bT5QTsKjHphkDYlVAaqMxMZ31OI2K5u6x7YwjlwwyyLwbAf-Pydh-i-pF4tao--IsOIiktwLCdgyXLQUfPk2GV1RewdPyCK74a3bjUIotD7J1Wi9ps8Xy-5aC874Fiv-41snXBqFNY9m3ScczfuxX7y3ViGKNPv8pEhpNUo65Rw"
+	    "text": message
 	  }
 	}
 
